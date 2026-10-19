@@ -1,0 +1,5 @@
+Testei as rotas da API utilizando o Postman.
+A consulta da lista de alunos e a consulta de alunos existentes retornaram 200 OK. O cadastro do aluno Eraldo, do curso ADS, foi realizado com sucesso e retornou 201 Created,
+gerando o ID 3. Em seguida, consultei o aluno pelo ID 3 e confirmei os dados cadastrados.
+Também testei uma atualização informando só um campo e a API retornou 400 Bad Request.
+A consulta de um ID inexistente retornou 404 Not Found. Por fim, excluí o aluno de ID 3(Eraldao Carlao) e a API respondeu 204 No Content, indicando que a exclusão foi concluída.
